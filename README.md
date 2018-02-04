@@ -1,4 +1,4 @@
-# Players API
+# Players Web API
 
 > Vue JS + Firebase + VueFire
 
