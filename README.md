@@ -1,21 +1,36 @@
-# players
+# Players API
 
-> Vue JS + firebase
+> Vue JS + Firebase + VueFire
 
-## Build Setup
+## Installation
 
 ``` bash
-# install dependencies
+# download repo
+
+# open your command-line interface
+
+# change to project location
+cd my-project
+
+# install dependencies from you 
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+# run at localhost:8080
+npm start
 ```
+## Features
+- Ascending and descending sorting by field.
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- Filtering database based on keyword.
+
+- Inline editing and removing of player's info.
+
+- Adding a new player to the database.
+
+## Notes
+Any sort or filter operation as well as adjusting results displayed on the page resets table.
+
+Input of type number accepts only positive integers.
+
+```Enter``` and ```Escape``` keys can be used when filtering, adding or editing player.
+
